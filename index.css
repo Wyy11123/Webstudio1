@@ -1,0 +1,102 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+.navbar .container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 0;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+        font-family: 'Noto Sans Linear A', sans-serif;
+        font-family: 'Nova Square', sans-serif;
+        font-family: 'Roboto', sans-serif
+}
+.navbar-menu li {
+    display: inline-block;
+}
+.navbar-menu li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    opacity: 0.6;
+}
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.number{
+    margin-left: 400px;
+    padding: 10px;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.mail{
+    margin-left: 10px;
+    padding: 10px;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.navbar-brand{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    color: #000;
+}
+.navbar-menu li a:hover {
+    color: aqua;
+}
+
+.number:hover{
+    opacity: 1;
+    color: rgb(24, 31, 219);
+}
+.mail:hover{
+    opacity: 1;
+    color: rgb(72, 30, 236);
+}
+.block{
+    background-color: rgb(40, 47, 61);
+    color: white;
+}
+button {
+     background-color: #008CBA;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 14px 40px;
+    color: white;
+    transition-duration: 0.4s;
+ }
+ button:hover{
+    background-color: #008CBA;
+        color: white;
+ }
+h3{
+    font-family: 'Hedvig Letters Sans', sans-serif;
+        font-family: 'Noto Sans Linear A', sans-serif;
+        font-family: 'Nova Square', sans-serif;
+        font-family: 'Roboto', sans-serif
+}
+h1{
+    font-family: 'Hedvig Letters Sans', sans-serif;
+        font-family: 'Noto Sans Linear A', sans-serif;
+        font-family: 'Nova Square', sans-serif;
+        font-family: 'Roboto', sans-serif
+}
+.button-block{
+    background-color: rgb(21, 17, 69);
+    color: aliceblue;
+}
+.first-logo{
+    color: blue;
+}
+ 
+
+
